@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.home .box{
+    background-image: linear-gradient(36deg, #D798E1 17.55%,#9BFFA5 27.56%,#AED3FF 49.89%,#C9D4EF 56.53%,#CACFFA 65.69%);
+    filter: blur(400px);
+    -webkit-filter: blur(400px);
+    z-index: -40;
+}
+.title{
+    background: linear-gradient(53.94deg, #373FFF 15.02%, #3ACAF8 82.83%);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.content,
+.company,
+.pricing{
+    background: linear-gradient(60deg, #D798E1 17.55%,#9BFFA5 27.56%,#AED3FF 49.89%,#C9D4EF 56.53%,#CACFFA 65.69%);
+    filter: blur(750px);
+    -webkit-filter: blur(750px);
+}
+.features{
+    background-color: rgba(215, 152, 225, 0.15);;
+}
+.people,
+.service{
+    border: 2px solid rgba(97, 153, 237, 0.26);
+}
+.swiper-pagination{
+    bottom: 30px !important;
+}
+.swiper {
+    padding-bottom: 80px !important;
+}
+.swiper-pagination-bullet{
+    background-color: #6B7CFF !important;
+    transition: .3s !important;
+}
+.swiper-pagination-bullet-active{
+    transform: scale(1.5);
+}
+.services{
+    background-color: rgba(255, 255, 255, 0.69);
+}
